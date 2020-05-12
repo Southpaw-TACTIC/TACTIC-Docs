@@ -1,0 +1,41 @@
+site_name: TACTIC Startup Guide
+
+#theme: readthedocs 
+#theme: cinder
+#theme: mkdocs
+theme:
+  name: material
+  features:
+    -tabs
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+nav:
+  - Introduction: 'introduction.md'
+  - Get TACTIC: 'get_tactic.md'
+  - Setup TACTIC: 'setup.md'
+  - Build and Run a Workflow: 'workflow.md'
+
+highlightjs: true
+
+#dev_addr: localhost:9000
+dev_addr: 192.168.115.156:9000
+
+extra_css:
+    - css/extra.css
+
+markdown_extensions:
+    - attr_list
+    - codehilite
+
+# Extras
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/squidfunk
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/squidfunk
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/squidfunk
+ 
