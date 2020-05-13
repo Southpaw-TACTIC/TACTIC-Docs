@@ -1,6 +1,6 @@
 # Naming Convention Classes
 
-**TACTIC Directory and File Naming**
+## Directory and File Naming
 
 TACTIC has a default file naming convention that has proven to work for
 a wide variety of productions. A production facility may simply choose
@@ -19,13 +19,13 @@ of the information in the project type.
 
 The various naming conventionn are as follows:
 
-1.  file\_naming\_cls: this class determines the file name of every file
+1.  file_naming_cls: this class determines the file name of every file
     checked into TACTIC.
 
-2.  dir\_naming\_cls: this class determines the directory of every file
+2.  dir_naming_cls: this class determines the directory of every file
     checked into TACTIC
 
-3.  app\_naming\_cls: this class determines the node names within an
+3.  app_naming_cls: this class determines the node names within an
     application such as Maya.
 
 The following code snippet is an example of overriding the directory for
@@ -55,11 +55,13 @@ all files checked into a shot:
 
 This will create a directory name that looks something like
 
-`/<base_dir>/<sequence_code>/<shot_code>/scenes`
+```
+/<base_dir>/<sequence_code>/<shot_code>/scenes
 
 or
 
 /sample3d/shot/XG/XG002/scenes
+```
 
 Overriding naming conventions is a simple matter of defining your own
 implementation class and implementing specific functions in this class.
@@ -68,15 +70,16 @@ production may have the type "prod/shot". This naming uniquely
 identifies this type of SObject.
 
 To customize the naming convention for this class, you replace the
-slashes "/" in the Search Type with underscores "\_" and use this as the
+slashes "/" in the Search Type with underscores "_" and use this as the
 name of the function. So in the example above, to customize a Shot
-(prod/shot), you define a function called prod\_shot. Whenever TACTIC is
+(prod/shot), you define a function called prod_shot. Whenever TACTIC is
 asked to produce a directory for a particular SObject, an implementation
 function such as this is called. If no such function exists, then the
 default is used.
 
-get\_base\_dir() simply gets the base directory of this SObject (default
-&lt;base&gt;/&lt;project&gt;/&lt;table&gt;)
+get_base_dir() simply gets the base directory of this SObject
+
+    default is <base>/<project>/<table>
 
 Overriding the file naming is similar.
 
@@ -102,18 +105,23 @@ Overriding the file naming is similar.
 
 This will create a file name that looks something like
 
-`<shot_code>_<custom>_<context>_<version>.<ext>`
+```
+<shot_code>_<custom>_<context>_<version>.<ext>
 
 or
 
-\`XG002\_bedroom\_anim\_v004.jpg \`
+XG002_bedroom_anim_v004.jpg
+```
 
 Custom in this case is a custom attribute added to a shot. So with these
 two classes, we would have a full path for this file of:
 
-\`/assets/sample3d/shot/XG/XG002/scenes/XG002\_bedroom\_anim\_v004.jpg \`
+```
+/assets/sample3d/shot/XG/XG002/scenes/XG002_bedroom_anim_v004.jpg
+```
 
-**Default Naming Conventions**
+
+## Default Naming Conventions
 
 TACTIC comes with a default file and directory naming convention. You
 may choose to adopt this default naming convention as specified above,
@@ -129,7 +137,7 @@ The rest of this section describes TACTIC’s default naming conventions.
 
 To start, there is a base directory under which all asset files are
 stored. This base directory is specified in the Tactic conf file in
-&lt;sites\_dir&gt;/config/tactic\_linux.conf (tactic\_win32.conf for windows).
+&lt;sites_dir&gt;/config/tactic_linux.conf (tactic_win32.conf for windows).
 The next level is divided by project and then the type of the sobject.
 All projects of this same type are located under this directory:
 
@@ -149,7 +157,7 @@ are up to the implementation function for each specific SObject type.
 If an SObject type does not have any overriding function, then there is
 a default implementation:
 
-Subdir: empty File: &lt;filename&gt;\_&lt;file\_code&gt;.&lt;ext&gt;
+Subdir: empty File: &lt;filename&gt;_&lt;file_code&gt;.&lt;ext&gt;
 
         Subdir: empty
 
@@ -160,6 +168,6 @@ Subdir: empty File: &lt;filename&gt;\_&lt;file\_code&gt;.&lt;ext&gt;
 The file code ensures that the file name is unique. This uniqueness
 prevents files from overwriting each other, even when files of the same
 name are checked in. In recent versions TACTIC has moved away from
-adding the file code to the file name in favor of the clearer v002\_BAR
+adding the file code to the file name in favor of the clearer v002_BAR
 ending. (However, the file name format can still exist for numerous
 asset types where the file name is of little consequence.)

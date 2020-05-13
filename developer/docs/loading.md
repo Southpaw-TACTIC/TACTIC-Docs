@@ -2,9 +2,9 @@
 
 ![image](media/async_loading.png)
 
-**Default behaviour in TACTIC 4.1**
+## Default behaviour
 
-Asynchronous loading is a new feature that has been introduced in TACTIC
+Asynchronous loading is a feature that has been introduced in TACTIC
 4.1. Its introduction is the result of a shift in the philosophy of
 TACTIC user interface design. In this new direction, UIs are expected to
 be more fluid and responsive.
@@ -17,7 +17,7 @@ As well, all TACTIC tables load asynchronously: the first 5 rows
 initially load and the rest of the table is loaded in groups of 10. This
 allows you to begin working on the table straight away.
 
-**Asynchronous Loading in the Custom Layout Editor**
+## Asynchronous Loading in the Custom Layout Editor
 
 As of TACTIC 4.1, the Custom Layout Editor supports asynchronous loading
 of views. Element tags now support a 'load' attribute, with three
