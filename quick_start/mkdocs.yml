@@ -1,4 +1,4 @@
-site_name: TACTIC Startup Guide
+site_name: TACTIC Quick Start Documentation
 
 #theme: readthedocs 
 #theme: cinder
@@ -12,7 +12,7 @@ theme:
     code: Roboto Mono
 
 nav:
-  - Introduction: 'introduction.md'
+  - Introduction: 'index.md'
   - Get TACTIC: 'get_tactic.md'
   - Setup TACTIC: 'setup.md'
   - Build and Run a Workflow: 'workflow.md'
