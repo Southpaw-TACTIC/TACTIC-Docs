@@ -121,9 +121,11 @@ On UNIX/Linux systems, the system package manager typically has options for inst
 
 
 
-## Install Image Utilities
+## Install Media Utilities (optional)
 
-<a href="https://imagemagick.org/">Imagemagick</a> and <a href="https://www.ffmpeg.org/">ffmpeg</a> are by TACTIC for various asset functions such as icon generation and metadata extraction. Installers are available for both Linux and Windows systems.
+<a href="https://imagemagick.org/">Imagemagick</a> and <a href="https://www.ffmpeg.org/">ffmpeg</a> can be used by TACTIC for various asset functions such as icon generation and metadata extraction. Installers are available for both Linux and Windows systems.
+
+Note that these are optional.  If ImageMagick is not present, it will use Pillowfor basic image manipulation.
 
 
 ## Install TACTIC

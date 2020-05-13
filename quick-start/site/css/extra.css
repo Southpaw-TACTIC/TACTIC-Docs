@@ -48,7 +48,7 @@ body {
 
 h1 {
     font-size: 40px;
-    text-decoration: underline;
+    border-bottom: solid 1px #DDD;
 }
 
 h2 {
@@ -81,12 +81,12 @@ li {
 
 
 
-li a {
+.md-sidebar li a {
     text-decoration: none;
     font-weight: 500;
 }
 
-li.active a {
+.md-sidebar li.active a {
     color: orange;
     text-decoration: none;
 }

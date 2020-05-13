@@ -5,6 +5,8 @@ site_name: TACTIC Quick Start Documentation
 #theme: mkdocs
 theme:
   name: material
+  favicon: images/favicon.ico
+  logo: images/favicon.ico
   features:
     -tabs
   font:
