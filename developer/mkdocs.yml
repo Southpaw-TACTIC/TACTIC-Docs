@@ -1,5 +1,6 @@
 site_name: TACTIC Developer Docs
 nav:
+    - Introduction: './index.md'
     - Developer Start-up:
         - 'Development Concepts': './development-concepts.md'
         - 'Architecture Overview': './architecture-overview.md'
@@ -7,14 +8,16 @@ nav:
         - 'Setting Up Dev Environment': './setting-up-dev-environment.md'
         - 'Watch Folder Service': './watch-folder-service.md'
     - Client API:
-        - 'Client Api Setup': './client-api-setup.md'
-        - 'Client Api Structure': './client-api-structure.md'
-        - 'Client Api Basic': './client-api-basic.md'
-        - 'Client Api Checkin': './client-api-checkin.md'
-        - 'Client Api Dependency': './client-api-dependency.md'
+        - 'Setup': './client-api-setup.md'
+        - 'Structure': './client-api-structure.md'
+    - Examples:
+        - 'Basic': './client-api-basic.md'
+        - 'Checkin': './client-api-checkin.md'
+        - 'Dependency': './client-api-dependency.md'
+        - 'Expressions': './using-expressions-in-scripting.md'
         - 'Custom Widget Basics': './custom-interfaces-in-tactic.md'
-        - 'Client Api Performance': './client-api-performance.md'
-        - 'Client Api Hierarchy': './client-api-hierarchy.md'
+        - 'Performance': './client-api-performance.md'
+        - 'Hierarchy': './client-api-hierarchy.md'
     - Changes:
         - 'Search Id To Search Code': './search-id-to-search-code.md'
     - Custom Widgets:
@@ -27,8 +30,6 @@ nav:
         - 'Packaging A Plugin': './packaging-a-plugin.md'
         - 'Plugin Versions': './plugin-versions.md'
         - 'Packaging Python Scripts Into A Plugin': './packaging-python-scripts-into-a-plugin.md'
-    - Expression Development:
-        - 'Using Expressions In Scripting': './using-expressions-in-scripting.md'
     - Validation:
         - 'Setup Validation': './setup-validation.md'
     - Async Loading:
@@ -39,12 +40,13 @@ nav:
         - 'Python Trigger In Tactic Editor Guideline': './python-trigger-in-tactic-editor-guideline.md'
         - 'Trigger': './trigger.md'
         - 'Setting Up The Schedule Event Trigger': './setting-up-the-schedule-event-trigger.md'
-    - Checkins:
+    - Check-ins:
         - 'Tactic Checkin Process': './tactic-checkin-process.md'
         - 'Custom Checkin Pipeline': './custom-checkin-pipeline.md'
-    - Conventions:
+    - Naming Conventions:
         - 'Naming Convention Classes': './naming-convention-classes.md'
     - API Reference:
+        - 'List of methods': 'api_reference.md'
         - 'Init  ': './python-client-api_general___init__.md'
         - 'Get Protocol': './python-client-api_general_get_protocol.md'
         - 'Set Login Ticket': './python-client-api_general_set_login_ticket.md'
@@ -87,7 +89,7 @@ nav:
         - 'Get By Code': './python-client-api_general_get_by_code.md'
         - 'Get By Search Key': './python-client-api_general_get_by_search_key.md'
         - 'Get Child Types': './python-client-api_general_get_child_types.md'
-        - 'Get Client Api Version': './python-client-api_general_get_client_api_version.md'
+        - 'Get Api Version': './python-client-api_general_get_client_api_version.md'
         - 'Get Client Dir': './python-client-api_general_get_client_dir.md'
         - 'Get Client Version': './python-client-api_general_get_client_version.md'
         - 'Get Column Info': './python-client-api_general_get_column_info.md'
