@@ -122,6 +122,13 @@ a:hover, a:focus {
     max-height: 80%;
 }
 
+.md-footer .md-footer-nav__title {
+    color: orange;
+}
+.md-footer .md-footer-nav__button {
+    color: orange;
+}
+
 article {
     border: solid 1px #DDD;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);

@@ -1,4 +1,6 @@
 site_name: TACTIC Developer Docs
+site_url: http://community.southpawtech.com
+
 nav:
     - Introduction: './index.md'
     - Developer Start-up:

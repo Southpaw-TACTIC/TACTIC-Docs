@@ -3,7 +3,7 @@
 These documents describe how developers can interact with TACTIC from external sources.  TACTIC has a very deep and well developer API allow you to customize almost any part of the system.  All components of TACTIC can be accessed through the API.  Examples of things you can do includes:
 
 1. Searching, inserting, updating any data within TACTIC
-1. Check-in in files
+1. Checking in files
 1. Communiting with the workflow engine
 1. Executing commands
 1. Retrieving widgets

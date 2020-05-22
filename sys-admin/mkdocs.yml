@@ -1,4 +1,6 @@
 site_name: TACTIC System Administration
+site_url: http://community.southpawtech.com
+
 nav:
     - Planning:
         - 'TACTIC as a Scalable Solution': 'deploy-tactic-scalability-solution.md'
