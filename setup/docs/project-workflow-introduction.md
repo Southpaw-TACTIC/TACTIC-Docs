@@ -19,7 +19,7 @@ separate history representing each stop on the conveyor belt.
 
 ![image](media/pipelines.png)
 
-**Workflow Concepts**
+## Workflow Concepts
 
 At the very beginning, a clear diagram should be defined of the
 processes, their relationships to each other and the deliverables
@@ -40,7 +40,7 @@ complete (often indicated by setting it to a final status ie approved,
 complete etc). While this task is in progress, files will be checked in
 and notes will be tracked as the process is worked on.
 
-**Status**
+## Status
 
 Each process also contains a set of possible "statuses" which which
 typically a used by the tasks. For example the "model" process can have
@@ -50,7 +50,7 @@ the process and are often the spawning point of automatically setting
 downstream and upstream process status, sending automated notifications
 and using the python triggers, etc.
 
-**Subcontext (advanced)**
+## Subcontext (advanced)
 
 At times there may need to be a further breakdown within a process, this
 can be achieved through using a **subcontext**. Sub-contexts are used for

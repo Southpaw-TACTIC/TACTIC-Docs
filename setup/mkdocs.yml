@@ -8,26 +8,25 @@ nav:
         - 'Project Templates': './project-templates.md'
         - 'Layout': './layout.md'
     - Project Startup:
-        - 'Project Startup Configuration': './project-startup-configuration.md'
-        - 'Configuration Add New Stype': './configuration-add-new-stype.md'
-        - 'Configuration View Items': './configuration-view-items.md'
-        - 'Configuration Add Items': './configuration-add-items.md'
-        - 'Configuration Import Items': './configuration-import-items.md'
-        - 'Configuration Workflow': './configuration-workflow.md'
-        - 'Configuration Notifications': './configuration-notifications.md'
-        - 'Configuration Triggers': './configuration-triggers.md'
-        - 'Configuration Edit Stype': './configuration-edit-stype.md'
+        - 'Configuration': './project-startup-configuration.md'
+        - 'Add New Stype': './configuration-add-new-stype.md'
+        - 'View Items': './configuration-view-items.md'
+        - 'Add Items': './configuration-add-items.md'
+        - 'Import Items': './configuration-import-items.md'
+        - 'Workflow': './configuration-workflow.md'
+        - 'Notifications': './configuration-notifications.md'
+        - 'Triggers': './configuration-triggers.md'
+        - 'Edit Stype': './configuration-edit-stype.md'
     - Users and Groups:
-        - 'Project Startup Manage Users': './project-startup-manage-users.md'
+        - 'Manage Users': './project-startup-manage-users.md'
         - 'Insert New User': './insert-new-user.md'
         - 'Group Assignment': './group-assignment.md'
     - User and Group Security:
         - 'Manage Security': './manage-security.md'
         - 'Managing Access Rules': './managing-access-rules.md'
-    - Dashboards:
-        - 'Project Startup Dashboards': './project-startup-dashboards.md'
+    #- Dashboards: './project-startup-dashboards.md'
     - Reports:
-        - 'Project Startup Reports': './project-startup-reports.md'
+        - 'Reports': './project-startup-reports.md'
         - 'Sobject Chart Wdg': './sobject-chart-wdg.md'
     - Plugins:
         #- 'Download Plugins': './download-plugins.md'
