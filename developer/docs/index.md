@@ -17,6 +17,6 @@ There are many ways to interact with TACTIC:
 1. Javascript Library
 1. REST Interface
 
-The complete reference of functions can be found here:
+The complete reference of functions can be found in the [API Reference](/api_reference).
 
 
