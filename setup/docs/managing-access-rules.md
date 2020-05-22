@@ -1,6 +1,6 @@
 # Managing Access Rules
 
-**TACTIC Security**
+## TACTIC Security
 
 All information in TACTIC goes through a series of security checks that
 are built into the lowest level of the software. The security
@@ -17,7 +17,7 @@ rules directly into the XML code allows for the most flexibility for the
 project manager, there are various other aspects of the TACTIC interface
 that can also assist in the rule creation process.
 
-**Managing Rules**
+## Managing Rules
 
 ![image](media/global-rules-popup.png)
 
@@ -94,7 +94,7 @@ Global Permissions column for the desired group. From the rule selection
 pop-up that appears, select one of the options. When you click the save
 button, they are committed to the access rule XML for the chosen group.
 
-**Side bar Manager Security**
+## Side bar Manager Security
 
 You can select which groups can see each of the links in the TACTIC side
 bar manager.

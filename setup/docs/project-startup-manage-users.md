@@ -1,10 +1,10 @@
 # Manage Users
 
-\\1) First, open the **Manage Users** view under:
+1) First, open the **Manage Users** view under:
 
 **Project Startup → Manage Users**
 
-\\2) In the **Project Configuration** view, the following tools are
+2) In the **Project Configuration** view, the following tools are
 provided:
 
 <table>

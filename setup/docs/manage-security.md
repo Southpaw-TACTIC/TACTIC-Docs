@@ -1,6 +1,6 @@
 # Manage Security
 
-![image](media/1_project_startup_manage_security_overview.png)
+![image](media/1_project_startup_manage_security_overview.png){: style="width: 35%"}
 
 This document only applies to security level 2. This security level can
 be set in the TACTIC config file.

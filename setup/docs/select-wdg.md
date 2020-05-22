@@ -1,15 +1,15 @@
 # Select
 
-![image](media/1_select_overview.png)
+![image](media/1_select_overview.png){: style="width: 50%"}
 
-**Description**
+## Description
 
 The Select Widget is a simple widget version of an HTML drop down
 selection box. The widget is used for making a selection from a
 predefined list of items. Many built-in dropdown widgets in TACTIC
 extend from the Select Widget.
 
-**Info**
+## Info
 
 <table>
 <colgroup>
@@ -38,7 +38,7 @@ extend from the Select Widget.
 </tbody>
 </table>
 
-**Usage**
+## Usage
 
 Usage of the Select Widget is straightforward. Simply click on the
 Select Widget button to open the drop down selection box. Then, select
@@ -47,13 +47,13 @@ group label represented as &lt;&lt; *label*&gt;&gt;. In that case, selecting the
 group label will trigger a warning pop-up. To unset a value, you can
 usually select the empty value with the label '-- Select --'.
 
-**Implementation**
+## Implementation
 
 The select is often setup in the Edit Column definition → Edit Tab. It
 is edited for the state for column data where the user should only be
 able to choose from a list of predefined values.
 
-**Options**
+### Options
 
 <table>
 <colgroup>
@@ -94,7 +94,7 @@ able to choose from a list of predefined values.
 </tbody>
 </table>
 
-**Advanced**
+### Advanced
 
 The following example uses the query option to get the **code** of a
 parent shot item but, display the **name** value in the list. This query

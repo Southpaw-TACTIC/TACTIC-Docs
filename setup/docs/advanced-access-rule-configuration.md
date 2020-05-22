@@ -1,8 +1,6 @@
 # Advanced Access Rule Configuration
 
-**Advanced Access Rule Configuration**
-
-**XML Access Rules**
+## XML Access Rules
 
 Security access rules are XML documents attached to user groups. Each
 user’s security clearance is based in a union of all of the rules coming
@@ -34,13 +32,13 @@ The security version is specified in the TACTIC config file as follows:
 > set at version 1 (which is the default for 3.7, since the security
 > version is not specified).
 
-**Security Version 1**
+## Security Version 1 (DEPRECATED)
 
 The following section applies to Security Version 1.
 
 Access rules for the 'Client' group: In this sample, any users in the
 Client group can see only a project named "game" and cannot access the
-side\_bar items (which have been denied).
+side_bar items (which have been denied).
 
     <?xml version='1.0' encoding='UTF-8'?>
     <rules>
@@ -54,7 +52,7 @@ side\_bar items (which have been denied).
       <rule group='project" key="game" access='allow'/>
       </rules>
 
-**Global Rules**
+## Global Rules
 
 The global rules can be configured in the Groups page or the Groups List
 tab in the Manage Security page. Here is a list of the existing rules:
@@ -74,15 +72,13 @@ tab in the Manage Security page. Here is a list of the existing rules:
         'import_csv', 'title': 'Import CSV'
         'retire_delete', 'title': 'Retire and Delete'
 
-**Project level Examples**
-
-**XML Examples**
+## Project level Examples
 
 The following are examples of different access rules which can be used
 to customize group access rules. Make sure the &lt;rule/&gt; tag is a child of
 the &lt;rules/&gt; tag.
 
-**Project level Examples**
+### Project level Examples
 
 1.  This rule denies access to all projects except for the "sample3d" project. In the following example, the "default" project is a home page
     the user needs to use to select projects. Because it is part of the
@@ -100,7 +96,7 @@ the &lt;rules/&gt; tag.
 
         <rule group='project' default='view'/>
 
-**Search Type level Examples**
+### Search Type level Examples
 
 1.  The layer search type is not viewable in all projects
 
@@ -136,7 +132,7 @@ the &lt;rules/&gt; tag.
 
         <rule group='sobject' search_type='prod/asset' project='sample3d' access='deny'/>
 
-**User Interface Column level Examples**
+### User Interface Column level Examples
 
 These examples affect the display of the columns in different views
 
@@ -156,7 +152,7 @@ These examples affect the display of the columns in different views
 
         <rule group='element' search_type='prod/shot' key='description' access='deny' project='sample3d/>
 
-**Database level Examples**
+### Database level Examples
 
 While Search Type and Search Type Column level examples affect the
 display of the main TableLayoutWdg and EditWdg, the following database
@@ -164,7 +160,7 @@ level examples are applied when attempts are made to edit or insert data
 into the database. It can block even server or client API script access
 to the databases.
 
-1.  This rule prevents the display and writing of the "is\_current" field
+1.  This rule prevents the display and writing of the "is_current" field
     for snapshots found in the Checkin History.
 
     DEPRECATED and UNSUPPORTED format:
@@ -193,10 +189,10 @@ to the databases.
 
          <rule group='sobject' search_type='project/asset' access='deny'/>
 
-**Search Filter Examples**
+### Search Filter Examples
 
 To enforce what can be searched or filtered out in any situation like
-script query or UI view, search\_filter rules can be applied. The
+script query or UI view, search_filter rules can be applied. The
 'access' attribute is not required here.
 
 1.  This rule filters out tasks belonging to project "pacman" and "sample3d". Notice you don’t need "access" here.
@@ -212,7 +208,7 @@ script query or UI view, search\_filter rules can be applied. The
             or
          <rule column='assigned' value='$LOGIN' search_type='sthpw/task' op='=' group='search_filter' project='sample3d'/>
 
-**Miscellaneous Examples**
+### Miscellaneous Examples
 
 1.  This rule blocks a user from seeing the options "Approved" and
     "Complete" in the task status drop-down
@@ -228,16 +224,16 @@ security version 1 above.)
 
 **Project Access:**
 
-This allows the group to see the project with the code "toy\_factory".
+This allows the group to see the project with the code "toy_factory".
 
     <rules>
 
     </rules>
 
-**Link Access:**
+### Link Access:
 
-This allows the group to see the link named "block\_set\_list" in the
-project named "toy\_factory".
+This allows the group to see the link named "block_set_list" in the
+project named "toy_factory".
 
     <rules>
       <rule group="project" code="toy_factory" access="allow"/>
@@ -248,10 +244,10 @@ project named "toy\_factory".
 
 This allows the group
 
-to see the sType "toy\_factory/design" in the project named
-"toy\_factory".
+to see the sType "toy_factory/design" in the project named
+"toy_factory".
 
-to hide the sType "sthpw/task" in the project named "toy\_factory".
+to hide the sType "sthpw/task" in the project named "toy_factory".
 
     <rules>
       <rule group="project" code="toy_factory" access="allow"/>
@@ -259,10 +255,10 @@ to hide the sType "sthpw/task" in the project named "toy\_factory".
 
     </rules>
 
-**Process Access:**
+### Process Access:
 
 This allows the group to see the process named "packaging" in the
-project named "toy\_factory".
+project named "toy_factory".
 
     <rules>
       <rule group="project" code="toy_factory" access="allow"/>
@@ -272,7 +268,7 @@ project named "toy\_factory".
 
     </rules>
 
-**User Interface Column level Access:**
+### User Interface Column level Access:
 
 This allows the group to:
 

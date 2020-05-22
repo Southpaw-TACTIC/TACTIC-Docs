@@ -1,10 +1,10 @@
 # Insert a New User
 
-**Insert a New User**
+## Insert a New User
 
 ![image](media/1_insert_new_user_overview.png)
 
-**Users and Groups**
+## Users and Groups
 
 Login access to TACTIC is controlled by a user login system. In TACTIC,
 users can also be assigned to groups, which are used to apply various
@@ -22,7 +22,7 @@ users (i.e. "who did what and when").
 To manage and insert users, open the **Users** view under Admin View→Site
 Admin→Users.
 
-![image](media/2_insert_new_user_sidebar.png)
+![image](media/2_insert_new_user_sidebar.png){: style="width: 35%"}
 
 This view shows the list of all TACTIC users in the system. You must add
 users here for TACTIC to recognize them. To insert a new user, click on
