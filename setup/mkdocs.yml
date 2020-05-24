@@ -120,8 +120,6 @@ theme:
     text: Roboto
     code: Roboto Mono
 
-highlightjs: true
-
 #dev_addr: localhost:9000
 dev_addr: 192.168.115.156:9000
 
@@ -142,5 +140,8 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/squidfunk
 
+#plugins:
+#    - search
+#    - mkpdfs
 
 

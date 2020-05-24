@@ -9,7 +9,7 @@ These documents describe how developers can interact with TACTIC from external s
 1. Retrieving widgets
 
 
-Start by reading the [development concepts](/development-concepts) to get an understanding of the terminology and how TACTIC is set up internally.
+Start by reading the [development concepts](/docs/development-concepts) to get an understanding of the terminology and how TACTIC is set up internally.
 
 There are many ways to interact with TACTIC:
 
@@ -17,6 +17,6 @@ There are many ways to interact with TACTIC:
 1. Javascript Library
 1. REST Interface
 
-The complete reference of functions can be found in the [API Reference](/api_reference).
+The complete reference of functions can be found in the [API Reference](/docs/api_reference).
 
 

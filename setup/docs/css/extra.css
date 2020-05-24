@@ -129,6 +129,11 @@ a:hover, a:focus {
     color: orange;
 }
 
+.md-search-result__item a {
+    text-decoration: none;
+}
+
+
 article {
     border: solid 1px #DDD;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
