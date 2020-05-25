@@ -7,7 +7,7 @@ In this quick start guide, we will setup a TACTIC project, create a TACTIC workf
 
 To get started, you should do the following:
 
-1. [Get TACTIC](/get_tactic) from various sources
-1. [Setup TACTIC](/setup) by creating your first project
-1. [Build and Run a workflow](/workflow) using the workflow manager and applying it.
+1. [Get TACTIC](/docs/get_tactic) from various sources
+1. [Setup TACTIC](/docs/setup) by creating your first project
+1. [Build and Run a workflow](/docs/workflow) using the workflow manager and applying it.
 

@@ -1,11 +1,8 @@
 # Setup Introduction
 
-**Setup Introduction**
+These documents describe how to configure and maintain the structure of the TACTIC projects, which begins after successful installation.  For documentation on TACTIC installation, please refer to the [System Adminstration](/docs/sys-admin) docs.
 
-**The role of Setting up TACTIC is to configure and maintain the
-structure of the TACTIC projects.**
-
-These responsibilities may include:
+Setting up TACTIC projects can include the following:
 
 -   Creating Projects
 

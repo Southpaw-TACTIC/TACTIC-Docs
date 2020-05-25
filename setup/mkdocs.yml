@@ -2,8 +2,8 @@ site_name: TACTIC Setup Docs
 nav:
     - Introduction: './index.md'
     - Create Projects:
-        - 'What Are Projects': './what-are-projects.md'
-        - 'Project Quickstart': './project-quickstart.md'
+      #- 'What Are Projects': './what-are-projects.md'
+      #  - 'Project Quickstart': './project-quickstart.md'
         - 'Create New Project': './create-new-project.md'
         - 'Project Templates': './project-templates.md'
         - 'Layout': './layout.md'

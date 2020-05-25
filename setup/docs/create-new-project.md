@@ -6,7 +6,7 @@ To create a new project in TACTIC, go to the top header and from the
 **Project Menu**, select **Create Project**. The Create New Project wizard
 will open.
 
-![image](media/1_create_new_project_menu.png)
+![image](media/1_create_new_project_menu.png){: style="width: 50%"}
 
 In the **Create New Project Wizard**, specify the **Project Title** and hit
 tab to go to the next field. Notice that a suggested **Project Code** is

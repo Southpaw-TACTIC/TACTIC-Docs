@@ -2,6 +2,7 @@ site_name: TACTIC System Administration
 site_url: http://community.southpawtech.com
 
 nav:
+    - 'Introduction': 'index.md'
     - Planning:
         - 'TACTIC as a Scalable Solution': 'deploy-tactic-scalability-solution.md'
         - 'Deployment Preparation': 'deploy-tactic-scalability-planning.md'
@@ -12,7 +13,7 @@ nav:
         - 'Install TACTIC on Centos 7': 'install-tactic-centos7.md' 
         - 'Install TACTIC Windows Server': 'install-tactic-windows-server.md'
         #- 'Install TACTIC with MySQL': 'install-tactic-mysql'
-        - 'Install TACTIC License': 'install-tactic-license.md'
+        #- 'Install TACTIC License': 'install-tactic-license.md'
     - Server Configuration:
         - 'Configuration Checklist': 'deploy-tactic-checklist.md'
         - 'Assets Storage': 'configure-tactic-assets.md'
