@@ -19,4 +19,10 @@ There are many ways to interact with TACTIC:
 
 The complete reference of functions can be found in the [API Reference](/docs/api_reference).
 
+## TACTIC Forum
+
+A great additional resources for problems that others have encountered, search through the [TACTIC Forum](http://forum.southpawtech.com).  If you cannot find what you need, feel free to register and post any questions or issues you may have.
+
+
+
 

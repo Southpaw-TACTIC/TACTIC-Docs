@@ -36,3 +36,9 @@ Refer to the following sections for maintenance,
 
 To get started with using TACTIC, building workflows and defining automation, read the [Quick-Start](/docs/quick-start) documentation.
 
+
+## TACTIC Forum
+
+A great additional resources for problems that others have encountered, search through the [TACTIC Forum](http://forum.southpawtech.com).  If you cannot find what you need, feel free to register and post any questions or issues you may have.
+
+

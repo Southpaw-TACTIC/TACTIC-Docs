@@ -22,3 +22,11 @@ Setting up TACTIC projects can include the following:
 
 This section will help you to understand how to approach this setup and
 configure your system properly.
+
+## TACTIC Forum
+
+A great additional resources for problems that others have encountered, search through the [TACTIC Forum](http://forum.southpawtech.com).  If you cannot find what you need, feel free to register and post any questions or issues you may have.
+
+
+
+
