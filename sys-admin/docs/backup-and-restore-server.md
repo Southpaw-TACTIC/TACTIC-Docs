@@ -82,15 +82,18 @@ directory structure.
 
 **Windows**
 
-The 'assets' directory on a Windows install is located by default in:
+The 'assets' directory on a default Windows install is located by default in:
 
 `C:\assets`
 
 **Linux**
 
-The 'assets' directory on a Linux install is located by default in:
+The 'assets' directory on a default Linux install is located by default in:
 
-`/home/apache/assets`
+`/opt/tactic/assets`
+
+Refer to the TACTIC config file to determine exactly where this folder has been
+configured.
 
 ### Restore
 
@@ -114,11 +117,11 @@ database and perform a database dump.
 
 **Windows**
 
-`pg_dumpall -U postgres -c > c:\assets\tacticDatabase.sql`
+`pg_dumpall -U postgres -c > tacticDatabase.sql`
 
 **Linux**
 
-`pg_dumpall -U postgres -c > /home/apache/assets/tacticDatabase.sql`
+`pg_dumpall -U postgres -c > tacticDatabase.sql`
 
 ### Restore - PostgreSQL
 
@@ -131,7 +134,8 @@ To restore the TACTIC database run the command:
 
 This last step, although not completely necessary, is recommended
 because it takes a snapshot of your TACTIC source code and project
-settings at the time of backup.
+settings at the time of backup..  Note that these folders can be
+different depending on where you installed TACTIC.
 
 ### Backup
 
@@ -139,19 +143,39 @@ settings at the time of backup.
 
 The folders to back up are:
 
+TACTIC Source Code:
 `C:\Program Files\southpaw\tactic`
 
-`C:\Program Files\southpaw\projects`
+TACTIC Configuration and Plugins:
+`C:\Program Files\southpaw\tactic_data`
 
 **Linux**
 
 The folders to back up are:
 
-`/home/apache/tactic`
+TACTIC Source code:
+`/op/tactic/tactic`
 
-`/home/apache/projects`
+TACTIC Configuration and Plugins
+`/opt/tactic/tactic_data`
+
+To find out exactly what folders these are for you installation, you can
+type this in the command line (in both Windows and Linux):
+
+```
+[tactic@localhost tactic]$ python
+Python 3.7.7 (default, Jun  4 2020, 15:43:14)
+[GCC 9.3.1 20200408 (Red Hat 9.3.1-2)] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import tacticenv
+>>> print( tacticenv.get_install_dir() )
+/opt/tactic/tactic
+>>> print( tacticenv.get_data_dir() )
+/opt/tactic/tactic_data
+```
+
 
 ### Restore
 
 To restore the TACTIC program files, you have to restore the `tactic`
-and `projects` directories to their original locations.
+and `tactic_data` directories to their original locations.
